@@ -9,4 +9,4 @@ class Person:
         self.pet = pet
 
     def flexaa(self):
-        return f'{name} sanoo 1+1 = 2'
+        return f'{self.name} sanoo 1+1 = 2'
