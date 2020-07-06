@@ -5,7 +5,7 @@ class Person:
         self._phone_number = phone_number
 
     @property
-    def city(self, _default = None):
+    def city(self, _default=None):
         return self._city
 
     @city.setter
