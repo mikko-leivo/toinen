@@ -1,12 +1,7 @@
-class Person():
-    def __init__(self, name ="SirMcEatsAlot", age = 100):
-        self.name = name
-        self.age = age
+class Person:
+    def __init__(self, name, age):
+        self._name = name
+        self._age = age
+
     def flexaa(self):
-        x = 1+1
-        print(f'{self.name} miettii hetken ja sanoo 1+1 on {x}')
-
-mikko = Person("Mikko")
-mervi =Person("Mervi")
-
-mervi.flexaa()
+        return f'{name} sanoo 1+1 = 2'
