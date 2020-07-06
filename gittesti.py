@@ -1,8 +1,9 @@
 class Person:
-    def __init__(self, city, address, phone_number):
+    def __init__(self, city, address, phone_number, pet):
         self._city = city
         self._address = address
         self._phone_number = phone_number
+        self.pet = pet
 
     @property
     def city(self, _default=None):
